@@ -1,8 +1,11 @@
 ﻿Book book = new Book("Programming notes");
+
 List<Chapter> chapters = new List<Chapter>();
 
 Chapter variablesChapter = new Chapter("Vars");
+Chapter DatatyperChapter = new Chapter("DataTypes");
 chapters.Add(variablesChapter);
+chapters.Add(DatatyperChapter);
 
 List<Page> variablesPages = new List<Page>();
 Page variablesPage = new Page(MyNotes.VariablesPageOne);
