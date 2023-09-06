@@ -1,4 +1,5 @@
-﻿Page FirstPage = new Page("Min første side i min awesome bog");
+﻿Page FirstPage = new Page(MyNotes.VariablesPageOne);
+
 
 Page second = new Page("Min anden side i min awesome bog");
 
@@ -11,6 +12,8 @@ Kapitel1.Pages.Add(second);
 Kapitel1.Pages.Add(third);
 
 
-Kapitel1.Read();
+Book mybook = new Book("Haps");
+mybook.Chapters.Add(Kapitel1);
+mybook.Start();
 
 Console.ReadLine();

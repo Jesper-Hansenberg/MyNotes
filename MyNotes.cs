@@ -1,7 +1,6 @@
 public static class MyNotes
 {
-    public static string VariablesPageOne =
-@"...
+    public static string VariablesPageOne = @"...
 In the vast savannah of computer memory, a remarkable phenomenon occurs. 
 Behold, the magnificent 'variables' – they are the vessels of information, the heart of computation. 
 They bear names, bestowed upon them with care, starting only with letters or the humble underscore. 
