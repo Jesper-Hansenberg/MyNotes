@@ -1,20 +1,15 @@
-﻿Page FirstPage = new Page(MyNotes.VariablesPageOne);
+﻿Book mybook = new Book("My Book", new List<Chapter>()
+{
+    new Chapter("Chapter 1", new List<Page>()
+    {
+        new Page(MyNotes.VariablesPageOne),
+        new Page(MyNotes.VariablesPageTwo),
+    }),
+    new Chapter("asdasd", new List<Page>()
+    {
+        new Page(MyNotes.VariablesPageOne),
+        new Page(MyNotes.VariablesPageTwo),
+    })
+});
 
-
-Page second = new Page("Min anden side i min awesome bog");
-
-Page third = new Page("Min tredje side side i min awesome bog");
-Page foruth  = new Page("Min tredje side side i min awesome bog");
-
-Chapter Kapitel1 = new Chapter("Variabler");
-
-Kapitel1.Pages.Add(FirstPage);
-Kapitel1.Pages.Add(second);
-Kapitel1.Pages.Add(third);
-
-
-Book mybook = new Book("Haps");
-mybook.Chapters.Add(Kapitel1);
 mybook.Start();
-
-Console.ReadLine();
