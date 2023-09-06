@@ -1,6 +1,9 @@
 public class Page
 {
     public string Content;
+
+
+    
     public Page(string content)
     {
         Content = content;

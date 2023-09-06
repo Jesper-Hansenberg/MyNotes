@@ -2,6 +2,7 @@ public class Chapter
 {
     public string Title;
     public List<Page> Pages;
+    
     public Chapter(string title)
     {
         Title = title;

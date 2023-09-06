@@ -1,15 +1,12 @@
-﻿Book mybook = new Book("My Book", new List<Chapter>()
-{
-    new Chapter("Chapter 1", new List<Page>()
-    {
-        new Page(MyNotes.VariablesPageOne),
-        new Page(MyNotes.VariablesPageTwo),
-    }),
-    new Chapter("asdasd", new List<Page>()
-    {
-        new Page(MyNotes.VariablesPageOne),
-        new Page(MyNotes.VariablesPageTwo),
-    })
-});
+﻿Page p = new Page("hejsa");
 
-mybook.Start();
+Chapter chap1 = new Chapter("vars");
+
+chap1.Pages.Add(p);
+
+Book book = new Book("Jespers bog");
+
+book.Chapters.Add(chap1);
+
+
+book.Start();

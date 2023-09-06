@@ -2,6 +2,7 @@ public class Book
 {
     public string Title;
     public List<Chapter> Chapters;
+    
     public Book(string title)
     {
         Console.BackgroundColor = ConsoleColor.Black;
